@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>may tinh don gian</title>
+    <style>
+        button {
+            font-size: 60px;
+            width: 100px;
+            color: blue;
+        }
+
+        table {
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+<table cellpadding="0" cellspacing="20">
+    <tr>
+        <td colspan="4" style="border: 1px solid black; text-align: right" height="80px"><span id="show"
+                                                                                               style="font-size: 40px"></span>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <button id="1" onclick="num1()" value="1">1</button>
+        </th>
+        <th>
+            <button id="2" onclick="num2()" value="2">2</button>
+        </th>
+        <th>
+            <button id="3" onclick="num3()" value="3">3</button>
+        </th>
+        <th>
+            <button id="add" onclick="add()" value="+">+</button>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <button id="4" onclick="num4()" value="4">4</button>
+        </th>
+        <th>
+            <button id="5" onclick="num5()" value="5">5</button>
+        </th>
+        <th>
+            <button id="6" onclick="num6()" value="6">6</button>
+        </th>
+        <th>
+            <button id="sub" onclick="sub()" value="-">-</button>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <button id="7" onclick="num7()" value="7">7</button>
+        </th>
+        <th>
+            <button id="8" onclick="num8()" value="8">8</button>
+        </th>
+        <th>
+            <button id="9" onclick="num9()" value="9">9</button>
+        </th>
+        <th>
+            <button id="mutil" onclick="mutil()" value="*">x</button>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <button onclick="reset()">c</button>
+        </th>
+        <th>
+            <button>0</button>
+        </th>
+        <th>
+            <button id="result" onclick="result()">=</button>
+        </th>
+        <th>
+            <button id="divis" onclick="divis()" value="/">/</button>
+        </th>
+    </tr>
+
+</table>
+<script src="js.js"></script>
+</body>
+</html>
