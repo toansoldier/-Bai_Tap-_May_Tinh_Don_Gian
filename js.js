@@ -88,3 +88,56 @@ function reset() {
     total = "";
     document.getElementById("show").innerHTML = total;
 }
+
+// function addData(data){
+//     switch (data){
+//         case "1":
+//             document.getElementById("show").innerHTML += "1";
+//             break;
+//         case "2":
+//             document.getElementById("show").innerHTML += "2";
+//             break;
+//         case "3":
+//             document.getElementById("show").innerHTML += "3";
+//             break;
+//         case "4":
+//             document.getElementById("show").innerHTML += "4";
+//             break;
+//         case "5":
+//             document.getElementById("show").innerHTML += "5";
+//             break;
+//         case "6":
+//             document.getElementById("show").innerHTML += "6";
+//             break;
+//         case "7":
+//             document.getElementById("show").innerHTML += "7";
+//             break;
+//         case "8":
+//             document.getElementById("show").innerHTML += "8";
+//             break;
+//         case "9":
+//             document.getElementById("show").innerHTML += "9";
+//             break;
+//         case "0":
+//             document.getElementById("show").innerHTML += "0";
+//             break;
+//         case "+":
+//             document.getElementById("show").innerHTML += "+";
+//             break;
+//         case "-":
+//             document.getElementById("show").innerHTML += "-";
+//             break;
+//         case "*":
+//             document.getElementById("show").innerHTML += "*";
+//             break;
+//         case "/":
+//             document.getElementById("show").innerHTML += "/";
+//             break;
+//         case "=":
+//             document.getElementById("show").innerHTML = eval(document.getElementById("show").innerHTML);
+//             break;
+//         case "C":
+//             document.getElementById("show").innerHTML = "";
+//             break;
+//     }
+// }
